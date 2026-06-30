@@ -1,0 +1,4 @@
+interface:
+  display_name: "Java Enterprise Backend"
+  short_description: "Standards for Java 21 Spring Boot enterprise backends."
+  default_prompt: "Use this skill to generate, review, refactor, or design Java enterprise backend code following Spring Boot, MyBatis-Plus, database, transaction, permission, Redis, RabbitMQ, and production-readiness standards."
