@@ -2,6 +2,8 @@
 
 Internal backend engineering standards for Java 21 + Spring Boot 3.x enterprise information systems in domestic innovation-compatible environments.
 
+中文说明见 [README.zh-CN.md](README.zh-CN.md).
+
 This repository contains one AI Skill:
 
 - `java-enterprise-backend`: guides Codex, Claude Code, and similar agents when generating, reviewing, refactoring, or designing Java enterprise backend code.
