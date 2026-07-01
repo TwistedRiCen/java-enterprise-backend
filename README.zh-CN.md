@@ -22,6 +22,33 @@
 npx skills@latest add https://github.com/TwistedRiCen/java-enterprise-backend --skill java-enterprise-backend
 ```
 
+## 卸载命令
+
+卸载项目级安装的技能：
+
+```bash
+npx skills@latest remove java-enterprise-backend
+```
+
+如果之前使用全局方式安装，请卸载全局技能：
+
+```bash
+npx skills@latest remove java-enterprise-backend --global
+```
+
+也可以使用交互式卸载：
+
+```bash
+npx skills@latest remove
+```
+
+卸载前后可以查看已安装技能：
+
+```bash
+npx skills@latest list
+npx skills@latest list --global
+```
+
 ## 最佳使用方式
 
 使用时建议显式写出 `Use $java-enterprise-backend`，并说明你希望 Codex 做“生成、审查、设计、修复”中的哪一种。

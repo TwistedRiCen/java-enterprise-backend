@@ -58,6 +58,33 @@ The first version had useful short prompts, but the usage examples were not stro
 npx skills@latest add https://github.com/TwistedRiCen/java-enterprise-backend --skill java-enterprise-backend
 ```
 
+## Uninstall
+
+Remove the project-level installed skill:
+
+```bash
+npx skills@latest remove java-enterprise-backend
+```
+
+If the skill was installed globally, remove it from the global scope:
+
+```bash
+npx skills@latest remove java-enterprise-backend --global
+```
+
+You can also run interactive removal:
+
+```bash
+npx skills@latest remove
+```
+
+Check installed skills before or after removal:
+
+```bash
+npx skills@latest list
+npx skills@latest list --global
+```
+
 ## Recommended Install Command
 
 Use the repository URL and install only this skill:
